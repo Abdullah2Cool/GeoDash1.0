@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="1000" height="30" tilewidth="32" tileheight="32" nextobjectid="34">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="450" columns="18">
+  <image source="tiles-01-01-01.png" width="596" height="842"/>
+ </tileset>
+ <layer name="map2" width="1000" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U9/gBFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAM1M8AAQ==
+  </data>
+ </layer>
+ <layer name="map1" width="1000" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt20EKgzAQQFFbegbvf9RuWpDSYjRJ40zeg9m4UGb5GVyXZVkTDAAAAESWoW0z7AAAAMDcMrRthh0AAACYW6+2fbzmH/Q5AAAA0elzAAAAGE+fAwAAwHj6HAAAAMbT5wAAADBehrbNsAMAAABzy9C2GXYAAABgbr3b9r6Zz2et6HMAAACi69m2t8Kppc8BAACIrkXbfruRv99dMrX3dH0OAABAdDVtu3cXL+3z2nu6PgcAACC6kratvY+fmV/fPLsDAAAAXNle27a4j5+ZI/+q63MAAACi22vbng1ec1c/sgMAAABc3ejebjUAAAAQ2eiu1ucAAAAwvqv1OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFtPnFIdJA==
+  </data>
+ </layer>
+ <objectgroup color="#aaff00" name="collision">
+  <object id="25" x="32" y="32">
+   <polyline points="0,0 0,512 224,512 224,448 448,448 448,384 704,384 704,320 1024,320 1024,384 1152,384 1152,448 1376,448 1376,512 1536,512 1536,0 0,0"/>
+  </object>
+  <object id="26" x="288" y="480">
+   <polyline points="0,0 15.3333,-31.3333 32,0 47.3333,-31.3333 64,0 80,-31.3333 96,0"/>
+  </object>
+  <object id="27" x="544" y="416">
+   <polyline points="0,0 15.3333,-32.6667 32,0 48,-32.6667 64,0 80,-32 96,0"/>
+  </object>
+  <object id="28" x="768" y="352">
+   <polyline points="0,0 15.3333,-32 32,0 47.3333,-32.6667 64,0 80,-32 96,0"/>
+  </object>
+  <object id="29" x="928" y="352">
+   <polyline points="0,0 15.3333,-32.6667 32,0 47.3333,-32 64,0"/>
+  </object>
+  <object id="30" x="1056" y="416">
+   <polyline points="0,0 14.6667,-32 32,0 47.3333,-32.6667 64,0"/>
+  </object>
+  <object id="31" x="1216" y="480">
+   <polyline points="0,0 15.3333,-31.3333 32,0 46.6667,-32 64,0 79.3333,-32 96,0"/>
+  </object>
+  <object id="32" x="1408" y="544">
+   <polyline points="0,0 16,-32 32,0 48,-32.6667 64,0"/>
+  </object>
+ </objectgroup>
+</map>
